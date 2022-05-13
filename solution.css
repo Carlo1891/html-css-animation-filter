@@ -36,10 +36,48 @@
     filter: grayscale(1);
 }
 
-.ex-7-img{
+.ex-7-img:hover{
     transition: 3s;
+    filter:grayscale(.5) sepia(.5);
 }
 
-.ex-7-img:hover{
-    filter:grayscale(.6) sepia(.5);
+.ex-8-img:hover{
+    transition: 3s;
+    border-radius: 20px;
+    filter:grayscale(.5) sepia(.5);
 }
+
+.ex-9-img:hover{
+    transition: 3s;
+    filter:grayscale(.5) sepia(.5);
+    border-radius: 20px;
+    transform: scale(1.5);
+}
+
+/* Animazione cerchio 1 antiorario */
+
+.ex-10-icon{
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin{
+    0% {
+        transform: rotate(1turn);
+    }
+}
+
+/* fine */
+
+/* Animazione cerchio 2 orario */
+
+.ex-11-icon:hover{
+    animation: spin2 3s linear;
+}
+
+@keyframes spin2{
+    75% {
+        transform: rotate(315deg);
+    }
+}
+
+/* fine */
