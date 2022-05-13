@@ -1,0 +1,45 @@
+.ex-1-square:hover{
+    transition: 3s;
+    background: red;
+}
+
+.ex-2-square:active{
+    transition: 3s;
+    width: 100%;
+}
+
+.ex-3-square:hover{
+    transition: 3s;
+    border-radius: 50%;
+}
+
+.ex-4-square:hover{
+    transition: 3s;
+    opacity: 0;
+}
+
+/* Quadrato grande e poi piccolo */
+
+.ex-5-square:hover{
+    transition: 3s;
+    transform: scale(2);
+}
+
+.ex-5-square:active{
+    transition: 3s;
+    transform: scale(.5);
+}
+
+/* fine */
+
+.ex-6-img:hover{
+    filter: grayscale(1);
+}
+
+.ex-7-img{
+    transition: 3s;
+}
+
+.ex-7-img:hover{
+    filter:grayscale(.6) sepia(.5);
+}
