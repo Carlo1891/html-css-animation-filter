@@ -1,53 +1,53 @@
-.ex-1-square:hover{
+.ex-1-square:hover {
     transition: 3s;
     background: red;
 }
 
-.ex-2-square:active{
+.ex-2-square:active {
     transition: 3s;
     width: 100%;
 }
 
-.ex-3-square:hover{
+.ex-3-square:hover {
     transition: 3s;
     border-radius: 50%;
 }
 
-.ex-4-square:hover{
+.ex-4-square:hover {
     transition: 3s;
     opacity: 0;
 }
 
 /* Quadrato grande e poi piccolo */
 
-.ex-5-square:hover{
+.ex-5-square:hover {
     transition: 3s;
     transform: scale(2);
 }
 
-.ex-5-square:active{
+.ex-5-square:active {
     transition: 3s;
     transform: scale(.5);
 }
 
 /* fine */
 
-.ex-6-img:hover{
+.ex-6-img:hover {
     filter: grayscale(1);
 }
 
-.ex-7-img:hover{
+.ex-7-img:hover {
     transition: 3s;
     filter:grayscale(.5) sepia(.5);
 }
 
-.ex-8-img:hover{
+.ex-8-img:hover {
     transition: 3s;
     border-radius: 20px;
     filter:grayscale(.5) sepia(.5);
 }
 
-.ex-9-img:hover{
+.ex-9-img:hover {
     transition: 3s;
     filter:grayscale(.5) sepia(.5);
     border-radius: 20px;
@@ -56,11 +56,11 @@
 
 /* Animazione cerchio 1 antiorario */
 
-.ex-10-icon{
+.ex-10-icon {
     animation: spin 1s linear infinite;
 }
 
-@keyframes spin{
+@keyframes spin {
     0% {
         transform: rotate(1turn);
     }
@@ -70,11 +70,11 @@
 
 /* Animazione cerchio 2 orario */
 
-.ex-11-icon:hover{
+.ex-11-icon:hover {
     animation: spin2 3s linear;
 }
 
-@keyframes spin2{
+@keyframes spin2 {
     75% {
         transform: rotate(315deg);
     }
